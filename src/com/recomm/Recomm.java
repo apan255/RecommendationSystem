@@ -13,8 +13,7 @@ import org.json.JSONTokener;
 
 public class Recomm {
 
-	private static String JSON_FILE = "C:\\Users\\apan25\\Desktop\\FolderNew\\recommendation_system\\Recomm_Workspace\\MRecomm\\src\\com\\recomm\\recomm_json.json";
-	//private static String JSON_FILE = "C:\\Users\\apan25\\Desktop\\FolderNew\\recommendation_system\\Recomm_Workspace\\MRecomm\\src\\com\\recomm\\recomm_json.json";
+	private static String JSON_FILE = "<Full path to json file>\\recomm_json.json";
 	static HashMap<String, HashMap<String, Double>> movieDataMap = new HashMap<String, HashMap<String,Double>>();
 	static HashMap<String, Double> similarityMap = new HashMap<String, Double>();
 	static HashMap<String, Double> similarityScoreSumMap = new HashMap<String, Double>();
